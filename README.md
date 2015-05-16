@@ -4,7 +4,9 @@ Web crawling made easy. Just supply extractor and terminator functions to this h
 **How to use**
 
 Supply the following to the krawll function:
+
 1. *Extractor* - Parses and extracts the required data from the HTML and returns the data as a dictionary.
+
 2. *Terminator* - The crawler terminates when this function returns True.
 
 _krawll(cookies, homepage, hostname, extractor, terminator)_
@@ -17,6 +19,7 @@ _krawll(cookies, homepage, hostname, extractor, terminator)_
 # RETURNS: a data structure containing newly extracted data
 # an empty list otherwise.
 def heading_extractor(html):
+	import BeautifulSoup
 	soup = BeautifulSoup(html)
 	h1s = soup.find_all('h1')
 	hits = []
