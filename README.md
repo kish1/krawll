@@ -1,7 +1,7 @@
 # krawll
 Web crawling made easy. Just supply extractor and terminator functions to this higher-order function and let krawll do the rest.
 
-**How to use**
+# How to use krawll
 
 Supply the following to the krawll function:
 
