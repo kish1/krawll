@@ -1,5 +1,5 @@
 # krawll
-Web crawling made easy. Just supply extractor and terminator functions to this higher-order function and let krawll do the rest.
+Web crawling made easy for Pythonistas. Just supply extractor and terminator functions to this higher-order function and let krawll do the rest.
 
 # How to use krawll
 
