@@ -5,9 +5,9 @@ Web crawling made easy for Pythonistas. Just supply extractor and terminator fun
 
 Supply the following to the krawll function:
 
-1. *Extractor* - Parses and extracts the required data from the HTML and returns the data as a dictionary.
+1. *Extractor* - A function that parses and extracts the required data from the HTML and returns the data as a dictionary.
 
-2. *Terminator* - The crawler terminates when this function returns True.
+2. *Terminator* - A function that returns True when the crawler should terminate, False otherwise.
 
 _krawll(cookies, homepage, hostname, extractor, terminator)_
 
