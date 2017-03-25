@@ -45,7 +45,7 @@ def may_exit(news):
 # GIVEN: a data structure containing the extracted data
 # RETURNS: False. This implies that the crawler will crawl the entire domain.
 def never_exit(news):
-	False
+	return False
 
 
 import krawll
